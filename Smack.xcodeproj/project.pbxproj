@@ -19,9 +19,11 @@
 		FC4617BC1FD7845900D3534D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4617BB1FD7845900D3534D /* Constants.swift */; };
 		FC4617BE1FD78DA400D3534D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4617BD1FD78DA400D3534D /* LoginVC.swift */; };
 		FC4617C01FD7910800D3534D /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4617BF1FD7910800D3534D /* CreateAccountVC.swift */; };
+		FC56DAAC1FDA113800C2C7DF /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56DAAB1FDA113800C2C7DF /* AvatarPickerVC.swift */; };
 		FC75EF411FD87AF9001900A8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75EF401FD87AF9001900A8 /* AuthService.swift */; };
 		FC75EF431FD88AA0001900A8 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75EF421FD88AA0001900A8 /* RoundedButton.swift */; };
 		FC75EF451FD9A5AC001900A8 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75EF441FD9A5AC001900A8 /* UserDataService.swift */; };
+		FC911BB11FDA148600D839B7 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC911BB01FDA148600D839B7 /* AvatarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +45,11 @@
 		FC4617BB1FD7845900D3534D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FC4617BD1FD78DA400D3534D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FC4617BF1FD7910800D3534D /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		FC56DAAB1FDA113800C2C7DF /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		FC75EF401FD87AF9001900A8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FC75EF421FD88AA0001900A8 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		FC75EF441FD9A5AC001900A8 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		FC911BB01FDA148600D839B7 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				FC4617B61FD72E4B00D3534D /* ChannelVC.swift */,
 				FC4617BD1FD78DA400D3534D /* LoginVC.swift */,
 				FC4617BF1FD7910800D3534D /* CreateAccountVC.swift */,
+				FC56DAAB1FDA113800C2C7DF /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			children = (
 				FC4617B81FD734F600D3534D /* GradientView.swift */,
 				FC75EF421FD88AA0001900A8 /* RoundedButton.swift */,
+				FC911BB01FDA148600D839B7 /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4617B71FD72E4B00D3534D /* ChannelVC.swift in Sources */,
+				FC56DAAC1FDA113800C2C7DF /* AvatarPickerVC.swift in Sources */,
 				FC75EF431FD88AA0001900A8 /* RoundedButton.swift in Sources */,
 				FC4617B51FD72E3700D3534D /* ChatVC.swift in Sources */,
 				FC75EF451FD9A5AC001900A8 /* UserDataService.swift in Sources */,
@@ -299,6 +306,7 @@
 				FC75EF411FD87AF9001900A8 /* AuthService.swift in Sources */,
 				FC4617BE1FD78DA400D3534D /* LoginVC.swift in Sources */,
 				FC4617B91FD734F600D3534D /* GradientView.swift in Sources */,
+				FC911BB11FDA148600D839B7 /* AvatarCell.swift in Sources */,
 				FC46179A1FD6F86B00D3534D /* AppDelegate.swift in Sources */,
 				FC4617B01FD7043100D3534D /* SWRevealViewController.m in Sources */,
 				FC4617BC1FD7845900D3534D /* Constants.swift in Sources */,
