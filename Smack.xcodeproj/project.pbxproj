@@ -27,6 +27,8 @@
 		FC911BB31FDA391200D839B7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC911BB21FDA391200D839B7 /* CircleImage.swift */; };
 		FC911BBA1FDA555E00D839B7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC911BB81FDA555E00D839B7 /* ProfileVC.swift */; };
 		FC911BBB1FDA555E00D839B7 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC911BB91FDA555E00D839B7 /* ProfileVC.xib */; };
+		FCBEF3C51FDCA35300487BC4 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBEF3C41FDCA35300487BC4 /* MessageService.swift */; };
+		FCBEF3C81FDCA40800487BC4 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBEF3C71FDCA40800487BC4 /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		FC911BB21FDA391200D839B7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		FC911BB81FDA555E00D839B7 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		FC911BB91FDA555E00D839B7 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		FCBEF3C41FDCA35300487BC4 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		FCBEF3C71FDCA40800487BC4 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +112,10 @@
 		FC4617981FD6F86B00D3534D /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				FCBEF3C61FDCA3D400487BC4 /* Model */,
 				FC911BBC1FDA556D00D839B7 /* XIBs */,
 				FC75EF3F1FD87AC4001900A8 /* Services */,
 				FC4617BA1FD7841F00D3534D /* Utillities */,
-				FC4617B31FD72E0A00D3534D /* Model */,
 				FC4617B21FD72E0100D3534D /* View */,
 				FC4617B11FD72DF200D3534D /* Controller */,
 				FC4617AC1FD7040100D3534D /* Supporting Files */,
@@ -158,13 +162,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		FC4617B31FD72E0A00D3534D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		FC4617BA1FD7841F00D3534D /* Utillities */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +175,7 @@
 			children = (
 				FC75EF401FD87AF9001900A8 /* AuthService.swift */,
 				FC75EF441FD9A5AC001900A8 /* UserDataService.swift */,
+				FCBEF3C41FDCA35300487BC4 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -188,6 +186,14 @@
 				FC911BB91FDA555E00D839B7 /* ProfileVC.xib */,
 			);
 			path = XIBs;
+			sourceTree = "<group>";
+		};
+		FCBEF3C61FDCA3D400487BC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCBEF3C71FDCA40800487BC4 /* Channel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,7 +325,9 @@
 				FC4617B71FD72E4B00D3534D /* ChannelVC.swift in Sources */,
 				FC56DAAC1FDA113800C2C7DF /* AvatarPickerVC.swift in Sources */,
 				FC75EF431FD88AA0001900A8 /* RoundedButton.swift in Sources */,
+				FCBEF3C81FDCA40800487BC4 /* Channel.swift in Sources */,
 				FC911BB31FDA391200D839B7 /* CircleImage.swift in Sources */,
+				FCBEF3C51FDCA35300487BC4 /* MessageService.swift in Sources */,
 				FC4617B51FD72E3700D3534D /* ChatVC.swift in Sources */,
 				FC75EF451FD9A5AC001900A8 /* UserDataService.swift in Sources */,
 				FC4617C01FD7910800D3534D /* CreateAccountVC.swift in Sources */,
