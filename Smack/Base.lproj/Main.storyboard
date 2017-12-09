@@ -393,11 +393,20 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="cvV-Sf-tME" eventType="touchUpInside" id="X5w-T4-hj5"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="tRc-Bb-cHG">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="UH0-zO-vuG" firstAttribute="centerX" secondItem="CBa-yJ-D4n" secondAttribute="centerX" id="5Sg-Bp-aF2"/>
+                            <constraint firstItem="tRc-Bb-cHG" firstAttribute="centerX" secondItem="CBa-yJ-D4n" secondAttribute="centerX" id="6XK-wi-4US"/>
+                            <constraint firstItem="tRc-Bb-cHG" firstAttribute="centerY" secondItem="CBa-yJ-D4n" secondAttribute="centerY" constant="-100" id="ETk-mY-4Aa"/>
                             <constraint firstItem="SO6-6Y-wzb" firstAttribute="top" secondItem="UH0-zO-vuG" secondAttribute="bottom" constant="40" id="G5T-Tp-ajG"/>
                             <constraint firstItem="RRd-lY-4Wr" firstAttribute="top" secondItem="fsM-h4-IMS" secondAttribute="bottom" constant="8" id="QAP-uX-sxt"/>
                             <constraint firstItem="Jew-a1-Scn" firstAttribute="centerX" secondItem="CBa-yJ-D4n" secondAttribute="centerX" id="Vd7-Qz-KKG"/>
@@ -410,6 +419,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="QSb-BB-rRB" id="csJ-qy-vsn"/>
+                        <outlet property="spinner" destination="tRc-Bb-cHG" id="nyK-PE-3ry"/>
+                        <outlet property="usernameTxt" destination="Xqy-iw-7dn" id="9dx-da-4wM"/>
                         <segue destination="Tpc-2I-i5F" kind="show" identifier="toCreateAccount" id="qta-07-h2z"/>
                     </connections>
                 </viewController>
