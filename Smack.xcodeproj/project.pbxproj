@@ -29,6 +29,7 @@
 		FC911BBB1FDA555E00D839B7 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC911BB91FDA555E00D839B7 /* ProfileVC.xib */; };
 		FCBEF3C51FDCA35300487BC4 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBEF3C41FDCA35300487BC4 /* MessageService.swift */; };
 		FCBEF3C81FDCA40800487BC4 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBEF3C71FDCA40800487BC4 /* Channel.swift */; };
+		FCBEF3CA1FDCACC000487BC4 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBEF3C91FDCACC000487BC4 /* ChannelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		FC911BB91FDA555E00D839B7 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		FCBEF3C41FDCA35300487BC4 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		FCBEF3C71FDCA40800487BC4 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		FCBEF3C91FDCACC000487BC4 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				FC75EF421FD88AA0001900A8 /* RoundedButton.swift */,
 				FC911BB01FDA148600D839B7 /* AvatarCell.swift */,
 				FC911BB21FDA391200D839B7 /* CircleImage.swift */,
+				FCBEF3C91FDCACC000487BC4 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC911BBA1FDA555E00D839B7 /* ProfileVC.swift in Sources */,
+				FCBEF3CA1FDCACC000487BC4 /* ChannelCell.swift in Sources */,
 				FC4617B71FD72E4B00D3534D /* ChannelVC.swift in Sources */,
 				FC56DAAC1FDA113800C2C7DF /* AvatarPickerVC.swift in Sources */,
 				FC75EF431FD88AA0001900A8 /* RoundedButton.swift in Sources */,
